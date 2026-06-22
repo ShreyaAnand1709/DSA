@@ -38,3 +38,6 @@
 
 <p>&nbsp;</p>
 <p><strong>Note:</strong> This question is the same as <a href="https://leetcode.com/problems/rearrange-characters-to-make-target-string/description/" target="_blank"> 2287: Rearrange Characters to Make Target String.</a></p>
+
+<pre>Tips: Try tto keep the freq array equalvalent to the number of unique characters of the given string 
+Use shift operator to divide the l and o letters and do not use the / division, if the number of the letters have increased it will consume more time and right shift operator is optimal here. </pre>
